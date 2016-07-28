@@ -9,3 +9,4 @@ gem 'lita-slack'
 
 # Commands
 gem 'lita-karma'
+gem 'lita-wolframalpha'

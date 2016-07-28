@@ -33,8 +33,16 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.6.0)
       multi_json
+    lita-wolframalpha (2.0.0)
+      lita (>= 4.3)
+      nokogiri (~> 1.5)
+    mini_portile2 (2.1.0)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
     puma (3.6.0)
     rack (2.0.1)
     rb-readline (0.5.3)
@@ -56,6 +64,7 @@ DEPENDENCIES
   lita
   lita-karma
   lita-slack
+  lita-wolframalpha
 
 BUNDLED WITH
    1.12.5

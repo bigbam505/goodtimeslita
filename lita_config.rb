@@ -37,5 +37,7 @@ Lita.configure do |config|
   config.redis[:port] = ENV['REDIS_PORT'] || '6379'
   config.redis[:password] = ENV['REDIS_PASSWORD'] if ENV['REDIS_PASSWORD']
 
+  config.handlers.wolframalpha.appid = ENV['WOLFMAN_APPID']
+
   config.http.port = ENV['PORT'] if ENV['PORT']
 end
